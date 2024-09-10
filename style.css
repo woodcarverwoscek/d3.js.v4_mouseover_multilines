@@ -1,0 +1,62 @@
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+
+
+/*.sources {
+    font-size:14px;
+    fill:#e5e5e5;
+}
+
+.sources:hover {
+/*  font-size:18px;
+    font-weight: 800;
+    fill:#853b62;
+}*/
+
+/*.graph-svg-component {
+    background-color:#e1e1e1;
+
+}*/
+
+div {
+    padding: 15px;
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    border:10px ;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus circle {
+  fill: steelblue;
+  stroke: steelblue;
+}
+
+.line {
+  fill: none;
+  stroke: #aaa;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-width: 1.5px; 
+}
+
+.line-hover {
+  stroke: #e769ab ;
+  stroke-width:2;
+}
+
+.voronoi path {
+  fill: none;
+  pointer-events: all;
+}
