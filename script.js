@@ -1,4 +1,3 @@
-var TEST_DATA = "https://github.com/woodcarverwoscek/d3.js.v4_mouseover_multilines/blob/main/data_3.csv"
 // Needed for the function: ca_energy_production_charts()
 var margin = {top: 50, right: 140, bottom: 50, left: 80},
     width = 1000 - margin.left - margin.right,
@@ -104,7 +103,7 @@ function ca_energy_production_charts(svg, data) {
     console.log("HELLO WORLD")
     console.log(data)
 
-    d3.csv(TEST_DATA, function(error, data) {
+    d3.csv("data_3.csv", function(error, data) {
         console.log(data)
         var flatData = [];
         data.forEach(function(d) {
